@@ -1,12 +1,12 @@
-# data-sets
+# raw-data
 
-[![npm package](https://badge.fury.io/js/jsx-readme.svg)](https://npmjs.org/package/jsx-readme)
-[![downloads](https://img.shields.io/npm/dw/jsx-readme.svg)](https://npm-stat.com/charts.html?package=jsx-readme)
-[![open issues](https://img.shields.io/github/issues-raw/dbartholomae/jsx-readme.svg)](https://github.com/dbartholomae/jsx-readme/issues)
+[![npm package](https://badge.fury.io/js/raw-data.svg)](https://npmjs.org/package/raw-data)
+[![downloads](https://img.shields.io/npm/dw/raw-data.svg)](https://npm-stat.com/charts.html?package=raw-data)
+[![open issues](https://img.shields.io/github/issues-raw/dbartholomae/raw-data.svg)](https://github.com/dbartholomae/raw-data/issues)
 [![semantic release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release#badge)
-[![license](https://img.shields.io/github/license/dbartholomae/jsx-readme)](https://github.com/dbartholomae/jsx-readme/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/dbartholomae/raw-data)](https://github.com/dbartholomae/raw-data/blob/main/LICENSE)
 
-Data sets for testing with realistic but synthetic data.
+Raw data for testing with realistic but synthetic data.
 
 ## 🛠 Usage
 
@@ -22,14 +22,14 @@ was inspired by faker.js being abandoned by its creator.
 
 Import the data set you want to use
 ```ts
-import { firstNames } from 'data-sets';
+import { firstNames } from 'raw-data';
 // ['Alfred', 'Bertram', ...]
 ```
 
 and create arbitraries from them:
 
 ```ts
-import { firstNames, lastNames } from "data-sets";
+import { firstNames, lastNames } from "raw-data";
 import {
   assert,
   constantFrom,
@@ -67,7 +67,7 @@ describe("isValidUser", () => {
 These can then also be used to create example data:
 
 ```ts
-import { firstNames, lastNames } from "data-sets";
+import { firstNames, lastNames } from "raw-data";
 import { constantFrom, emailAddress, record, sample } from "fast-check";
 
 interface User {
@@ -105,7 +105,7 @@ The following data lists are currently available:
 
 ## 🏠 Homepage
 
-You can find more about this on [https://dbartholomae.github.io/jsx-readme](https://dbartholomae.github.io/data-sets).
+You can find more about this on [https://dbartholomae.github.io/raw-data](https://dbartholomae.github.io/raw-data).
 
 ## 🖋️ Contributing
 

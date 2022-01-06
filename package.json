@@ -1,7 +1,7 @@
 {
-  "name": "data-sets",
+  "name": "raw-data",
   "version": "1.0.0",
-  "description": "Data sets for testing with realistic but synthetic data",
+  "description": "Raw data for testing with realistic but synthetic data",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -27,9 +27,9 @@
   "author": "Daniel Bartholomae <daniel@bartholomae.name> (https://startup-cto.net)",
   "funding": "https://github.com/sponsors/dbartholomae",
   "license": "MIT",
-  "homepage": "https://dbartholomae.github.io/data-sets",
-  "repository": "git@github.com:dbartholomae/data-sets.git",
-  "bugs": "https://github.com/dbartholomae/data-sets/issues",
+  "homepage": "https://dbartholomae.github.io/raw-data",
+  "repository": "git@github.com:dbartholomae/raw-data.git",
+  "bugs": "https://github.com/dbartholomae/raw-data/issues",
   "directories": {
     "lib": "lib",
     "doc": "docs"
