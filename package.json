@@ -1,7 +1,7 @@
 {
-  "name": "jsx-readme",
-  "version": "1.10.0",
-  "description": "Generate Readme files with a React-like syntax and package.json-aware helpers.",
+  "name": "data-sets",
+  "version": "1.0.0",
+  "description": "Data sets for testing with realistic but synthetic data",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -19,22 +19,19 @@
     "lib"
   ],
   "keywords": [
-    "Markdown",
-    "generator",
-    "JSX",
-    "MD",
-    "Readme"
+    "faker",
+    "data",
+    "mock"
   ],
   "author": "Daniel Bartholomae <daniel@bartholomae.name> (https://startup-cto.net)",
   "funding": "https://github.com/sponsors/dbartholomae",
   "license": "MIT",
-  "homepage": "https://dbartholomae.github.io/jsx-readme",
-  "repository": "git@github.com:dbartholomae/jsx-readme.git",
-  "bugs": "https://github.com/dbartholomae/jsx-readme/issues",
+  "homepage": "https://dbartholomae.github.io/data-sets",
+  "repository": "git@github.com:dbartholomae/data-sets.git",
+  "bugs": "https://github.com/dbartholomae/data-sets/issues",
   "directories": {
     "lib": "lib",
-    "doc": "docs",
-    "example": "examples"
+    "doc": "docs"
   },
   "dependencies": {},
   "devDependencies": {
