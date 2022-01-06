@@ -33,7 +33,6 @@
     "lib": "lib",
     "doc": "docs"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
@@ -50,6 +49,7 @@
     "eslint-plugin-jest-formatting": "^3.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.0",
+    "fast-check": "^2.20.0",
     "husky": "^7.0.0",
     "jest": "^27.0.1",
     "lint-staged": "^12.0.2",
