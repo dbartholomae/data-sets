@@ -85,14 +85,13 @@ First please [fork this repository](https://docs.github.com/en/github/getting-st
 to be able to contribute any changes.
 
 The code in this codebase is managed by [Git](https://git-scm.com/) for version
-control [NodeJS](https://nodejs.org/en/) for running scripts, and [pnpm](https://pnpm.js.org/)
-as package manager. Everything *has* to be installed globally to work with the
+control and [NodeJS](https://nodejs.org/en/) for running scripts. Everything *has* to be installed globally to work with the
 repository.
 
 We recommend to read up on tools you are unfamiliar with.
 
-After all tools are installed, please run `pnpm install` to install all
-dependencies and then `pnpm test` and `pnpm run build` to ensure that everything is set up correctly.
+After all tools are installed, please run `npm install` to install all
+dependencies and then `npm test` and `npm run build` to ensure that everything is set up correctly.
 
 Now you can create a new branch describing the change you are about to make,
 e. g. `fix_typo_in_documentation`, and start coding.

@@ -20,22 +20,19 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v1.2.1
-      with:
-        version: ^5.5.4
-    - name: Install
-      run: pnpm install --frozen-lockfile=false
+        cache: 'npm'
+    - name: Install Packages
+      run: npm install --prefer-offline --no-audit
     - name: Build
-      run: pnpm run build
+      run: npm run build
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Lint
-      run: pnpm run lint
+      run: npm run lint
     - name: Run unit tests
-      run: pnpm test
+      run: npm test
     - name: Build documentation
-      run: pnpm run docs
+      run: npm run docs
     - name: Upload code coverage to codecov
       uses: codecov/codecov-action@v1
 
@@ -50,18 +47,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v1.2.1
-      with:
-        version: ^5.5.4
-    - name: Install
-      run: pnpm install --frozen-lockfile=false
+        cache: 'npm'
+    - name: Install Packages
+      run: npm install --prefer-offline --no-audit
     - name: Build
-      run: pnpm run build
+      run: npm run build
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build documentation
-      run: pnpm run docs
+      run: npm run docs
     - name: Set git credentials
       run: |
         git config --local user.email "action@github.com"
