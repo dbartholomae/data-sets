@@ -25,8 +25,6 @@ jobs:
       run: npm install --prefer-offline --no-audit
     - name: Build
       run: npm run build
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Lint
       run: npm run lint
     - name: Run unit tests
@@ -52,8 +50,6 @@ jobs:
       run: npm install --prefer-offline --no-audit
     - name: Build
       run: npm run build
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build documentation
       run: npm run docs
     - name: Set git credentials
