@@ -21,7 +21,8 @@
   "keywords": [
     "faker",
     "data",
-    "mock"
+    "mock",
+    "fast-check"
   ],
   "author": "Daniel Bartholomae <daniel@bartholomae.name> (https://startup-cto.net)",
   "funding": "https://github.com/sponsors/dbartholomae",
