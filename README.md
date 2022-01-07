@@ -121,3 +121,9 @@ Give a ⭐ if this package helped you! You can also support the development of t
 
 MIT. See [LICENSE file](./LICENSE) for details.
 
+### Copyright notice
+
+Some of the data in this library falls below the following copyright note:
+
+* <https://github.com/stympy/faker/> - Copyright (c) 2007-2010 Benjamin Curtis
+* <http://search.cpan.org/~jasonk/Data-Faker-0.07/> - Copyright 2004-2005 by Jason Kohles
