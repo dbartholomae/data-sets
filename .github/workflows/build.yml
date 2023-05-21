@@ -19,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 12.x
+        node-version: 16.x
         cache: 'npm'
     - name: Install Packages
       run: npm install --prefer-offline --no-audit
@@ -44,7 +44,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 12.x
+        node-version: 16.x
         cache: 'npm'
     - name: Install Packages
       run: npm install --prefer-offline --no-audit
