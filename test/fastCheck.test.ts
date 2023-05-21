@@ -7,12 +7,12 @@ import {
   record,
 } from "fast-check";
 
-function isValidUser(user: any) {
+function isValidUser(user: unknown) {
   return (
-    user != null &&
-    user.firstName !== undefined &&
-    user.lastName !== undefined &&
-    user.email !== undefined
+    user instanceof Object &&
+    "firstName" in user &&
+    "lastName" in user &&
+    "email" in user
   );
 }
 
